@@ -1,5 +1,8 @@
-export const changeUser = user => ({
+
+//responsavel por promover uma acao 
+export const changeUser = dt => ({
     type : 'CHANGE_USER',
-    payload : user 
+    nome : dt.nome,
+    cidade : dt.cidade 
 })
 
